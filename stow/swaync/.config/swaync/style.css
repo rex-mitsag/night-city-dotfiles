@@ -1,0 +1,155 @@
+* {
+    font-family: "GeistMono Nerd Font";
+}
+
+/* =========================================================
+   NIGHT CITY — SWAYNC
+   ========================================================= */
+
+.control-center {
+    background: rgba(7, 7, 9, 0.96);
+    border: 1px solid #FF3B30;
+    border-radius: 8px;
+    padding: 14px;
+}
+
+/* ---------- TITLE ---------- */
+
+.widget-title {
+    background: #0D0B0B;
+    border: 1px solid #3A0F12;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.widget-title > label {
+    color: #00F0FF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.widget-title > button {
+    background: #0D0B0B;
+    color: #FF3B30;
+    border: 1px solid #3A0F12;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+.widget-title > button:hover {
+    background: #FF3B30;
+    color: #070709;
+}
+
+/* ---------- NOTIFICATIONS ---------- */
+
+.notification-row {
+    margin: 4px 0;
+}
+
+.notification {
+    background: #0D0B0B;
+    border: 1px solid #3A0F12;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.notification:hover {
+    border-color: #00F0FF;
+    background: #151014;
+}
+
+.notification-content {
+    color: #E8E3D8;
+}
+
+.summary {
+    color: #00F0FF;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.body {
+    color: #E8E3D8;
+    font-size: 12px;
+}
+
+.time {
+    color: #FF3B30;
+    font-size: 10px;
+}
+
+/* ---------- NOTIFICATION ACTIONS ---------- */
+
+.notification-action {
+    background: #070709;
+    color: #E8E3D8;
+    border: 1px solid #3A0F12;
+    border-radius: 4px;
+}
+
+.notification-action:hover {
+    background: #3A0F12;
+    color: #00F0FF;
+}
+
+/* ---------- MPRIS ---------- */
+
+.widget-mpris {
+    background: #0D0B0B;
+    border: 1px solid #3A0F12;
+    border-radius: 6px;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+.widget-mpris-player {
+    background: transparent;
+}
+
+.widget-mpris-title {
+    color: #E8E3D8;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.widget-mpris-subtitle {
+    color: #00F0FF;
+    font-size: 11px;
+}
+
+.widget-mpris button {
+    background: transparent;
+    color: #00F0FF;
+    border: none;
+}
+
+.widget-mpris button:hover {
+    color: #FF3B30;
+}
+
+/* ---------- SCROLLBAR ---------- */
+
+scrollbar {
+    background: #070709;
+}
+
+scrollbar slider {
+    background: #3A0F12;
+    border-radius: 4px;
+}
+
+scrollbar slider:hover {
+    background: #00F0FF;
+}
+
+/* ---------- EMPTY STATE ---------- */
+
+.control-center .notification-group {
+    background: transparent;
+}
+
+.control-center .notification-group-empty {
+    color: #E8E3D8;
+}

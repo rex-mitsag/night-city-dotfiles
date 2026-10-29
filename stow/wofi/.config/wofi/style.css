@@ -1,0 +1,69 @@
+/* =========================================================
+   NIGHT CITY — Wofi
+   Omarchy-inspired
+   ========================================================= */
+
+* {
+    font-family: "GeistMono Nerd Font";
+    font-size: 14px;
+}
+
+window {
+    background-color: #070709;
+    border: 2px solid #FF3B30;
+    border-radius: 8px;
+}
+
+#input {
+    margin: 12px;
+    padding: 10px 14px;
+
+    background-color: #0D0B0B;
+    color: #E8E3D8;
+
+    border: 1px solid #3A0F12;
+    border-radius: 5px;
+
+    caret-color: #00F0FF;
+}
+
+#input:focus {
+    border-color: #00F0FF;
+}
+
+#outer-box {
+    margin: 4px;
+    padding: 4px;
+}
+
+#inner-box {
+    margin: 2px;
+}
+
+#entry {
+    padding: 8px 12px;
+    margin: 2px 4px;
+
+    border-radius: 4px;
+
+    background-color: transparent;
+    color: #E8E3D8;
+}
+
+#entry:selected {
+    background-color: #3A0F12;
+    color: #00F0FF;
+}
+
+#text {
+    margin: 2px;
+    color: #E8E3D8;
+}
+
+#entry:selected #text {
+    color: #00F0FF;
+}
+
+#img {
+    margin-right: 10px;
+}
